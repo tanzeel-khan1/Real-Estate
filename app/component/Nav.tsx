@@ -80,7 +80,7 @@ const Nav = () => {
                   className={`relative pb-1 transition-all duration-200 ${
                     pathname === link.href
                       ? "text-black after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-black"
-                      : "hover:underline hover:underline-offset-[6px] hover:text-blue-600"
+                      : "hover:underline hover:underline-offset-[6px]"
                   }`}
                 >
                   {link.name}
@@ -94,7 +94,7 @@ const Nav = () => {
               className={`flex items-center gap-2 relative pb-1 transition-all duration-200 ${
                 pathname === "/login"
                   ? "text-black after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-full after:h-0.5 after:bg-black"
-                  : "hover:underline hover:underline-offset-[6px] hover:text-blue-600"
+                  : "hover:underline hover:underline-offset-[6px] "
               }`}
             >
               <FaRegCircleUser size={20} />
