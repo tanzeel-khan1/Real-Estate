@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="relative bg-white h-140 w-full mt-16 overflow-visible rounded-xl">
 
         <motion.img
-          src="hero1.jpg"
+          src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200"
           alt="Hero"
           className="w-full h-full object-cover rounded-xl"
           initial={{ opacity: 0, scale: 1.05 }}
@@ -33,7 +33,7 @@ const Hero = () => {
           <p className="text-center">rhoncus. Porttitor fermentum eu urna eget</p>
         </motion.div>
 
-        <motion.div
+        {/* <motion.div
           className="absolute left-1/2 bottom-0 -translate-x-1/2 translate-y-1/2 w-[90%] max-w-5xl rounded-xl"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
@@ -118,7 +118,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );
