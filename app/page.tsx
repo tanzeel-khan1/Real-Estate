@@ -3,6 +3,7 @@ import React from "react";
 import Nav from "./component/Nav";
 import Hero from "./pages/Hero";
 import Page from "./property/page";
+import Center from "./pages/Center";
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
         <Hero />
         <Page />
       </div>
+      <Center/>
     </div>
   );
 };
