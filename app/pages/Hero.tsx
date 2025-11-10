@@ -22,7 +22,7 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
         >
-          <h1 className="text-5xl font-bold text-center mt-30 md:mt-60">
+          <h1 className="text-5xl font-bold text-center mt-34 md:mt-60">
             Find a home that suits your lifestyle.
           </h1>
 
