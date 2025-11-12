@@ -4,6 +4,7 @@ import Nav from "./component/Nav";
 import Hero from "./pages/Hero";
 import Page from "./property/page";
 import Center from "./pages/Center";
+import Cen from "./pages/Cen"
 
 const page = () => {
   return (
@@ -14,6 +15,7 @@ const page = () => {
         <Page />
       </div>
       <Center/>
+      <Cen/>
     </div>
   );
 };
