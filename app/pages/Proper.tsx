@@ -2,6 +2,7 @@
 
 import { div } from "framer-motion/client";
 import { BedDouble, Bath, Car } from "lucide-react";
+import Page from "@/app/contact/page"
 
 interface Property {
   id: number;
@@ -120,6 +121,7 @@ export default function CommercialProperty() {
         </div>
       </div>
     </section>
+    <Page/>
     </div>
   );
 }
