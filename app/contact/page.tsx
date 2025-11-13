@@ -29,7 +29,6 @@ const ContactSection: React.FC = () => {
 
     reset();
   };
-
   return (
     <section className="min-h-screen flex items-center justify-center p-8 bg-gray-900">
       <ToastContainer />
