@@ -3,6 +3,7 @@ import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Nav from "../component/Nav";
 
 interface FormData {
   name: string;
@@ -30,6 +31,8 @@ const ContactSection: React.FC = () => {
     reset();
   };
   return (
+   <>
+   <Nav/>
     <section className="min-h-screen flex items-center justify-center p-8 bg-white">
       <ToastContainer />
       <div className="flex flex-col lg:flex-row w-full max-w-6xl shadow-2xl rounded-xl overflow-hidden bg-gray-800/50 backdrop-blur-sm border border-gray-700">
@@ -121,6 +124,7 @@ const ContactSection: React.FC = () => {
         </div>
       </div>
     </section>
+   </>
   );
 };
 
