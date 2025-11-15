@@ -36,7 +36,7 @@ const ContactSection: React.FC = () => {
     <section className="min-h-screen flex items-center justify-center p-8 bg-white">
       <ToastContainer />
       <div className="flex flex-col lg:flex-row w-full max-w-6xl shadow-2xl rounded-xl overflow-hidden bg-gray-800/50 backdrop-blur-sm border border-gray-700">
-        <div className="w-full lg:w-2/5 p-10 bg-gray-900/90 text-white">
+        <div className="w-full lg:w-2/5 p-10 bg-[#0C0B1E] text-white">
           <h2 className="text-3xl font-bold mb-2">Get in touch</h2>
           <p className="text-sm text-gray-400 mb-8">
             Leo morbi faucibus mattis pharetra tellus velit ultricies duis rhoncus

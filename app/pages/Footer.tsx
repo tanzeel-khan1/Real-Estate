@@ -23,14 +23,12 @@ const Footer = () => {
       <footer className="bg-[#0C0B1E] text-white py-12 px-6 md:px-20">
         <div className="grid md:grid-cols-5 grid-cols-1 gap-10">
 
-          {/* Opening Hours */}
           <div>
             <h3 className="font-semibold mb-4">Opening hours</h3>
             <p className="text-sm">Mon-Fri 08:00AM - 08:00PM</p>
             <p className="text-sm mt-1">Sat-Sun 08:00AM - 08:00PM</p>
           </div>
 
-          {/* Find Us */}
           <div>
             <h3 className="font-semibold mb-4">Find Us</h3>
             <p className="text-sm">8911 Tanglewood Ave.</p>
@@ -59,7 +57,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter */}
           <div>
             <h3 className="font-semibold mb-4">Newsletter</h3>
             <p className="text-sm mb-3">Subscribe to our newsletter</p>
@@ -83,17 +80,13 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
         <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-xs text-gray-400">
-            ©Copyright Real Estate 2023. Design by Figma.guru
-          </p>
+         
 
           <div className="flex space-x-4 mt-4 md:mt-0">
             <FaFacebookF className="cursor-pointer hover:text-gray-300" />
             <FaTwitter className="cursor-pointer hover:text-gray-300" />
             <FaInstagram className="cursor-pointer hover:text-gray-300" />
-            <FaPinterestP className="cursor-pointer hover:text-gray-300" />
           </div>
         </div>
       </footer>
