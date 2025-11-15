@@ -31,10 +31,9 @@ import React from 'react';
 
 const Center = () => {
   return (
-    <div className="w-full bg-[#100E2C] pt-14 pb-10 md:pl-24 pl-14 md:pr-14 pr-6">
+    <div className="w-full bg-[#100E2C] pt-14 pb-10 md:pl-20 pl-14 md:pr-14 pr-6">
       <div className="w-full h-full grid md:grid-cols-2 grid-cols-1 gap-10 items-center">
 
-        {/* Image Section */}
         <div className="flex justify-center items-center">
           <img
             className="w-full max-w-[450px] object-contain rounded-md"

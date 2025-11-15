@@ -34,13 +34,14 @@ import Center from "./pages/Center";
 import Cen from "./pages/Cen";
 import Proper from "./pages/Proper";
 import AboutPage from "@/app/about/Page"; // 👈 Name changed
+import Footer from "./pages/Footer";
 
 const page = () => {
   return (
     <div>
       <Nav />
 
-      <div className="md:pl-24 pl-12 md:pr-14 pr-8">
+      <div className="md:pl-20 pl-12 md:pr-14 pr-8">
         <Hero />
         <Page />        {/* property/page */}
       </div>
@@ -49,7 +50,8 @@ const page = () => {
       <Cen />
       <Proper />
 
-      <AboutPage />     {/* about/Page */}
+      <AboutPage />  
+      <Footer  />
     </div>
   );
 };

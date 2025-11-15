@@ -20,7 +20,7 @@ const Nav = () => {
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 h-16">
         <div className="flex items-center">
-          <img src="/reall.png" alt="Logo" className="h-12 w-auto ml-4 md:ml-9"  />
+          <img src="/reall.png" alt="Logo" className="h-12 w-auto ml-4 md:ml-4"  />
         </div>
 
         <ul className="hidden md:flex gap-8 text-gray-800 font-medium">
