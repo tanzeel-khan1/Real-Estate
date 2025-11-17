@@ -117,11 +117,11 @@ const Modal: React.FC<{ property: Property | null; onClose: () => void; }> = ({ 
   if (!property) return null;
 
   const handleBuy = () => {
-    toast.success("Purchase request submitted!"); // sirf toast call
+    toast.success("Purchase request submitted!"); 
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-6 z-50">
+    <div className="fixed inset-0 bg-white bg-opacity-50 flex items-center justify-center p-6 z-50">
       <div className="bg-white rounded-xl p-6 max-w-lg w-full shadow-xl relative">
         <button
           onClick={onClose}

@@ -26,7 +26,7 @@ const Page: React.FC = () => {
   return (
    <div>
     <Nav/>
-     <div className="min-h-screen bg-gray-50 p-4 md:p-8">
+     <div className="min-h-screen mt-16 bg-gray-50 p-4 md:p-8">
       <header className="text-center mb-10 md:mb-16">
         <h1 className="text-3xl md:text-5xl font-extrabold text-indigo-900 mb-2">
           What city will you live in?
