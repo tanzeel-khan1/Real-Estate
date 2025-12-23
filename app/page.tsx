@@ -12,7 +12,6 @@ const page = () => {
   return (
     <div>
       <Nav />
-
       <div className="md:pl-20 pl-12 md:pr-14 pr-8">
         <Hero />
         <Page />
