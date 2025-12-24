@@ -22,7 +22,6 @@ const ContactSection: React.FC = () => {
 
   const onSubmit: SubmitHandler<FormData> = (data) => {
     localStorage.setItem("contactFormData", JSON.stringify(data));
-
     toast.success("Your demo submitted 🎉", {
       position: "top-right",
       autoClose: 3000,
