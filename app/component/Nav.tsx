@@ -40,7 +40,6 @@ const Nav = () => {
   return (
     <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 h-16">
-
         {/* Logo */}
         <h1 className="font-bold text-2xl ml-6">Real-Estate</h1>
 
@@ -58,19 +57,12 @@ const Nav = () => {
           ))}
         </ul>
 
-        {/* Desktop Right Side */}
         <div className="hidden md:flex items-center gap-6 text-gray-800">
-
           {user ? (
-//             <span className="font-medium">
-//               <FaHandsClapping />
-//  Welcome
-//             </span>
-<span className="font-medium flex items-center gap-2">
-  <FaHandsClapping />
-  Welcome
-</span>
-
+            <span className="font-medium flex items-center gap-2">
+              <FaHandsClapping />
+              Welcome
+            </span>
           ) : (
             <Link href="/login" className="flex items-center gap-2">
               <FaRegCircleUser size={20} />
@@ -96,13 +88,9 @@ const Nav = () => {
       {menuOpen && (
         <div className="md:hidden bg-white border-t shadow-lg">
           <ul className="flex flex-col items-center gap-4 py-4 text-gray-800">
-
             {navLinks.map((link) => (
               <li key={link.name}>
-                <Link
-                  href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                >
+                <Link href={link.href} onClick={() => setMenuOpen(false)}>
                   {link.name}
                 </Link>
               </li>
@@ -117,7 +105,6 @@ const Nav = () => {
                 Login
               </Link>
             )}
-
           </ul>
         </div>
       )}
