@@ -59,13 +59,26 @@ interface DetailItemProps {
   label: string;
 }
 
+// const DetailItem: React.FC<DetailItemProps> = ({ icon: Icon, value, label }) => (
+//   <div className="flex flex-col items-center justify-center space-y-1 w-full">
+//     <div className="flex items-center space-x-2">
+//       <Icon className="text-gray-800 text-xl" />
+//       <span className="text-gray-800 font-semibold text-base">{value}</span>
+//     </div>
+//     <span className="text-gray-500 text-sm">{label}</span>
+//   </div>
+// );
 const DetailItem: React.FC<DetailItemProps> = ({ icon: Icon, value, label }) => (
-  <div className="flex flex-col items-center justify-center space-y-1 w-full">
-    <div className="flex items-center space-x-2">
-      <Icon className="text-gray-800 text-xl" />
-      <span className="text-gray-800 font-semibold text-base">{value}</span>
+  <div className="flex flex-col items-center justify-center space-y-1">
+    <div className="flex items-center gap-2">
+      <Icon className="text-gray-800 text-lg sm:text-xl" />
+      <span className="text-gray-800 font-semibold text-sm sm:text-base">
+        {value}
+      </span>
     </div>
-    <span className="text-gray-500 text-sm">{label}</span>
+    <span className="text-gray-500 text-xs sm:text-sm text-center">
+      {label}
+    </span>
   </div>
 );
 
