@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Page from "../about/page";
+import Page from "../reset/page";
 
 const Testimonial = () => {
   return (
