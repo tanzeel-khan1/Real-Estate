@@ -1,18 +1,18 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 interface CityCardProps {
   city: string;
   propertiesCount: number;
-  imageSrc: string; 
-  size: 'large' | 'medium' | 'tall'; 
-  isFeatured?: boolean; 
+  imageSrc: string;
+  size: "large" | "medium" | "tall";
+  isFeatured?: boolean;
 }
 
 const sizeClasses = {
-  large: 'col-span-2 row-span-1 h-60 md:h-72', 
-  medium: 'col-span-1 row-span-1 h-60 md:h-72', 
-  tall: 'col-span-1 row-span-2 h-full min-h-[30rem] md:min-h-[36rem]', 
+  large: "col-span-2 row-span-1 h-60 md:h-72",
+  medium: "col-span-1 row-span-1 h-60 md:h-72",
+  tall: "col-span-1 row-span-2 h-full min-h-[30rem] md:min-h-[36rem]",
 };
 
 export const CityCard: React.FC<CityCardProps> = ({
@@ -27,7 +27,7 @@ export const CityCard: React.FC<CityCardProps> = ({
   return (
     <div
       className={`relative rounded-xl overflow-hidden shadow-lg transform transition duration-300 hover:scale-[1.02] ${cardClasses} ${
-        isFeatured ? 'border-4 border-green-500/80' : ''
+        isFeatured ? "border-4 border-green-500/80" : ""
       }`}
     >
       <Image
@@ -35,15 +35,15 @@ export const CityCard: React.FC<CityCardProps> = ({
         alt={`${city} city view`}
         fill
         style={{
-          objectFit: 'cover',
-          filter: 'brightness(0.5)', 
+          objectFit: "cover",
+          filter: "brightness(0.5)",
         }}
         className="transition duration-500 group-hover:scale-105"
-        priority={size === 'large' || size === 'tall'} 
+        priority={size === "large" || size === "tall"}
         sizes={
-          size === 'large'
-            ? '(max-width: 768px) 100vw, 66vw'
-            : '(max-width: 768px) 50vw, 33vw'
+          size === "large"
+            ? "(max-width: 768px) 100vw, 66vw"
+            : "(max-width: 768px) 50vw, 33vw"
         }
       />
 
