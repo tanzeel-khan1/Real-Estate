@@ -15,6 +15,8 @@ const sizeClasses = {
   tall: "col-span-1 row-span-2 h-full min-h-[30rem] md:min-h-[36rem]",
 };
 
+
+
 export const CityCard: React.FC<CityCardProps> = ({
   city,
   propertiesCount,
@@ -60,3 +62,5 @@ export const CityCard: React.FC<CityCardProps> = ({
     </div>
   );
 };
+
+
