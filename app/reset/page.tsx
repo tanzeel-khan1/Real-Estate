@@ -14,7 +14,7 @@ type CityData = {
 };
 
 const citiesData: CityData[] = [
-  { city: 'New York', propertiesCount: 20, imageSrc: '/new york.webp', size: 'large' },
+  { city: 'New York', propertiesCount: 20, imageSrc: '/new york.png.webp', size: 'large' },
   { city: 'Boston', propertiesCount: 12, imageSrc: '/boston.avif', size: 'medium', isFeatured: true },
   { city: 'Chicago', propertiesCount: 32, imageSrc: '/chicago.jpg', size: 'tall' },
   { city: 'Washington', propertiesCount: 18, imageSrc: '/washington.jpeg', size: 'medium' },
