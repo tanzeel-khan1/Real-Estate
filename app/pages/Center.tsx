@@ -1,37 +1,8 @@
-// import React from 'react'
-
-// const Center = () => {
-//   return (
-//     <div className='h-90 w-full bg-[#100E2C] pt-14 pb-10 md:pl-24 pl-12 md:pr-14 pr-8'>
-//       <div className=" h-full w-full  grid md:flex">
-// <div className='h-full md:w-[50%] w-full'>
-//   <img className='h-full mx-auto block object-contain rounded-md' 
-//        src="https://img.freepik.com/premium-photo/businessman-holding-house-model-real-estate-concept_488220-18757.jpg" 
-//        alt="" />
-// </div>
-
-// <div className='h-full md:w-[50%] w-full text-white'>
-// <h1 className='text-3xl font-bold'>Putting a plan to action,</h1>
-// <h1 className='text-3xl font-bold'>to assure your satisfaction! </h1>
-// <p className='mt-5'>Ultrices quis at enim in tristique in id diam </p>
-// <p>suspendisse. Sed fermentum velit id et donec dui. Sed</p>
-// <p>nulla neque at phasellus in adipiscing dictum. </p>
-// <button className="px-8 py-4 mt-9 bg-[#0057FF] cursor-pointer rounded-md transition-transform duration-300 hover:scale-105 hover:bg-blue-600">
-//   Learn More
-// </button>
-
-// </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Center;
 import React from 'react';
 
 const Center = () => {
   return (
-    <div className="w-full bg-[#100E2C] pt-14 pb-10 md:pl-20 pl-14 md:pr-14 pr-6">
+    <div className="w-full bg-[#100E2C] pt-14 pb-10 md:pl-20 pl-1 md:pr-14 pr-6">
       <div className="w-full h-full grid md:grid-cols-2 grid-cols-1 gap-10 items-center">
 
         <div className="flex justify-center items-center">

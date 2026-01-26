@@ -126,7 +126,7 @@ export default function CommercialProperty() {
   return (
    <>
     <div>
-      <div className="md:pl-20 pl-12 md:pr-14 pr-8">
+      <div className="md:pl-20 pl-4 md:pr-14 pr-8">
         <section className="py-12 bg-white">
           <div className="max-w-7xl mx-auto px-4 text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 mb-2">

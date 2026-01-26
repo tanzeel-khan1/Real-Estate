@@ -5,7 +5,7 @@ import Page from "../reset/page";
 const Testimonial = () => {
   return (
     <>
-    <section className="flex flex-col md:flex-row justify-between items-center py-16 md:pl-44 pl-10 md:pr-14 pr-8 bg-white">
+    <section className="flex flex-col md:flex-row justify-between items-center py-16 md:pl-44 pl-4 md:pr-14 pr-8 bg-white">
       {/* Left Content */}
       <div className="text-center md:text-left max-w-md">
         <h2 className="text-2xl font-semibold text-[#0A093D] mb-2">
