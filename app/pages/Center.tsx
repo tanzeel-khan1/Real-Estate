@@ -7,14 +7,14 @@ const Center = () => {
 
         <div className="flex justify-center items-center">
           <img
-            className="w-full max-w-[450px] object-contain rounded-md"
+            className="w-full max-w-[400px] object-contain rounded-md"
             src="https://img.freepik.com/premium-photo/businessman-holding-house-model-real-estate-concept_488220-18757.jpg"
             alt="House Model"
           />
         </div>
 
         {/* Text Section */}
-        <div className="text-white md:text-left text-center">
+        <div className="text-white md:text-left text-center  ">
           <h1 className="text-3xl md:text-4xl font-bold leading-tight">
             Putting a plan to action,
           </h1>
