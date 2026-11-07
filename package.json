@@ -6,7 +6,7 @@
     "dev": "node init && next dev",
     "build": "node init && next build",
     "start": "node init && next start",
-    "lint": "eslint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "framer-motion": "^12.23.24",
